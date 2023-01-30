@@ -9,6 +9,8 @@
 
 ![Image](ss2.png)
 
-* Now, if I enter 'add-message?s=hey_there' the webpage will add this new string in a new line and display the message.
+  
+
+* Now, if I enter 'add-message?s=whats_up' the webpage will add this new string in a new line and display the message.
 
 ![Image](ss3.png)
