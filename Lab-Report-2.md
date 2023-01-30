@@ -5,4 +5,8 @@
 
 > /add-message?s=<string> 
 * Each new string will be added to a new line ("/n").
-* For example:
+* For example, this is what our page looks like.
+  
+![Image](ss1.png)
+  
+![Image](ss2.png)
