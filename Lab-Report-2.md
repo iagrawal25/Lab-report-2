@@ -22,5 +22,4 @@
   * The value of the URL is saved in the _parameters_ variable, separated by _=_. When we return _parameters[1]_, the value after _=_ (which is 'whats_up') is concatenated to the variable _input_ as a new line. Then, _input_ is printed on the sreen.
 
 * Here's the code for this program:
- 
-![Image](code.png)
+
