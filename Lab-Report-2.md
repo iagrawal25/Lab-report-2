@@ -40,10 +40,6 @@ static void reverseInPlace(int[] arr) {
 ```
 @Test 
 public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-
     int[] input2 = {1,2,3};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{3,2,1}, input2);
@@ -52,3 +48,15 @@ public void testReverseInPlace() {
 * The output for the failure-inducing input:
 
 ![Image](testerror.png)
+
+* However, this JUnit test doesn't induce a failure and passes the test for the buggy code:
+                                
+```
+@Test 
+public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+```
+
+* The output for the above code:                                  
