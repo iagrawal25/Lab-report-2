@@ -69,7 +69,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-
+                                  
 * Now, here's our JUnit test with a failure-inducing input:
 ```
 @Test 
@@ -79,6 +79,7 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{3,2,1}, input2);
     }
 ```
+
 * The output for the failure-inducing input:
 
 ![Image](testerror.png)
