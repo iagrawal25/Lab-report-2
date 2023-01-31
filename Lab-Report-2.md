@@ -98,8 +98,8 @@ public void testReverseInPlace() {
 ![Image](testpass.png)                                  
 
 * The symptom: The method _ReverseInPlace()_ needs to change the input array to its reverse. However, what it is doing is that it is taking every element from the end and storing it in the beginning of the array.
- * arr[i] = arr[arr.length - i - 1]
- * This will work fine until the middle of the array. After that it will be wrong as the elements in the first half of the array have been interated over. They are not saved in any other variable either.
+  * arr[i] = arr[arr.length - i - 1]
+  * This will work fine until the middle of the array. After that it will be wrong as the elements in the first half of the array have been interated over. They are not saved in any other variable either.
                                  
 * Here's the buggy program:
  
@@ -125,8 +125,8 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```                                 
- * Now, we use a new variable, _newArray_ to store the reversed array.
- * Then, we interate over the original array to store each reversed element back in _arr_.      
+  * Here, we use a new variable, _newArray_ to store the reversed array.
+  * Then, we interate over the original array to store each reversed element back in _arr_.      
                                    
  ## Part 3: Learning
  I learnt a lot of new things in week 2 and 3 of CSE15L. I acquired new technical skills and enjoyed the lab work.
