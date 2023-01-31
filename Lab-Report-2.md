@@ -23,6 +23,7 @@
   * The value of the URL is saved in the _parameters_ variable, separated by _=_. When we return _parameters[1]_, the value after _=_ (which is 'whats_up') is concatenated to the variable _input_ as a new line. Then, _input_ is printed on the sreen.
 
 * Here's the code for this program:
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -103,7 +104,7 @@ public void testReverseInPlace() {
   * arr[i] = arr[arr.length - i - 1]
   * This will work fine until the middle of the array. After that it will be wrong as the elements in the first half of the array have been interated over. They are not saved in any other variable either.
                                  
-* Here's the buggy program:
+* Here is the buggy program:
  
 ```
 static void reverseInPlace(int[] arr) {
@@ -114,7 +115,7 @@ static void reverseInPlace(int[] arr) {
   }
 ``` 
 
-- Here's the fixed code:
+- Here is the fixed code:
   - Here, we use a new variable, _newArray_ to store the reversed array.
   - Then, we interate over the original array to store each reversed element back in _arr_.                                        
                                   
