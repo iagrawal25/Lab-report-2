@@ -112,9 +112,9 @@ static void reverseInPlace(int[] arr) {
   }
 ``` 
 
-* Here's the fixed code:
-  * Here, we use a new variable, _newArray_ to store the reversed array.
-  * Then, we interate over the original array to store each reversed element back in _arr_.                                        
+- Here's the fixed code:
+  - Here, we use a new variable, _newArray_ to store the reversed array.
+  - Then, we interate over the original array to store each reversed element back in _arr_.                                        
                                   
 ```
 static void reverseInPlace(int[] arr) {
