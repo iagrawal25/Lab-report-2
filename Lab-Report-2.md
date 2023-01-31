@@ -36,3 +36,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
+* Now, for the following JUnit test, using this failure-inducing input gives this out:
+![Image](test1.png)
+                                  
+![Image](test2.png)
