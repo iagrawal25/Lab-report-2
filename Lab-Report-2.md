@@ -107,20 +107,20 @@ public void testReverseInPlace() {
                                  
 * Here is the buggy program:
  
-```
+ ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
          // error
          arr[i] = arr[arr.length - i - 1];
     }
   }
-``` 
+ ``` 
 
 - Here is the fixed code:
   - Here, we use a new variable, _newArray_ to store the reversed array.
   - Then, we interate over the original array to store each reversed element back in _arr_.                                        
                                   
-```
+ ```
 static void reverseInPlace(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -130,7 +130,7 @@ static void reverseInPlace(int[] arr) {
           arr[i] = newArray[i];
     }
   }
-```                                 
+ ```                                 
                                    
 ## Part 3: Learning
  I learnt a lot of new things in week 2 and 3 of CSE15L. I acquired new technical skills and enjoyed the lab work.
