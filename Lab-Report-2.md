@@ -131,7 +131,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```                                 
                                    
- ## Part 3: Learning
+## Part 3: Learning
  I learnt a lot of new things in week 2 and 3 of CSE15L. I acquired new technical skills and enjoyed the lab work.
   * I learnt how to manipulate webpages, handle requests, and create web servers.
   * I learnt JUnit testing and how to debug code.
