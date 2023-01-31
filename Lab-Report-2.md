@@ -61,7 +61,7 @@ class StringServer {
 ```
 
 ## Part 2: Debugging
-- Here's the buggy program that we will be testing today:
+- Here's the buggy program that we will be testing today:f
  
 
   static void reverseInPlace(int[] arr) {
@@ -71,7 +71,7 @@ class StringServer {
     }
 
                                   
-- Now, hereour JUnit test with a failure-inducing input:
+- Now, here is our JUnit test with a failure-inducing input:
 
   @Test 
   public void testReverseInPlace() {
