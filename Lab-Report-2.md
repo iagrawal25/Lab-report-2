@@ -61,25 +61,26 @@ class StringServer {
 ```
 
 ## Part 2: Debugging
-- Here's the buggy program that we will be testing today:f
+- Here's the buggy program that we will be testing today:
  
-
+```
   static void reverseInPlace(int[] arr) {
       for(int i = 0; i < arr.length; i += 1) {
             arr[i] = arr[arr.length - i - 1];
       }
     }
-
+```
                                   
 - Now, here is our JUnit test with a failure-inducing input:
 
+```
   @Test 
   public void testReverseInPlace() {
       int[] input2 = {1,2,3};
       ArrayExamples.reverseInPlace(input2);
       assertArrayEquals(new int[]{3,2,1}, input2);
     }
-
+```
 
 - The output for the failure-inducing input:
         
