@@ -29,11 +29,10 @@
 * Here's the buggy program that we will be testing today:
  
 ```
-static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
+static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
+      arr[i] = arr[arr.length - i - 1];
     }
-    return arr;
   }
-                                  ```
+```
+
