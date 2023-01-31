@@ -3,7 +3,7 @@
 * We will be creating a web server called 'StringServer' which will take incoming requests and print the same string on the screen.
 * Strings can be added by using the following request:
 
- > /add-message?s=<string> 
+  > /add-message?s=<string> 
 
 * Each new string will be added to a new line ("/n").
 * For example, if I enter 'localhost:4000/add-message?s=hey_there' the webpage will look like this:  
@@ -113,6 +113,8 @@ static void reverseInPlace(int[] arr) {
 ``` 
 
 * Here's the fixed code:
+  * Here, we use a new variable, _newArray_ to store the reversed array.
+  * Then, we interate over the original array to store each reversed element back in _arr_.                                        
                                   
 ```
 static void reverseInPlace(int[] arr) {
@@ -125,8 +127,6 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```                                 
-  * Here, we use a new variable, _newArray_ to store the reversed array.
-  * Then, we interate over the original array to store each reversed element back in _arr_.      
                                    
  ## Part 3: Learning
  I learnt a lot of new things in week 2 and 3 of CSE15L. I acquired new technical skills and enjoyed the lab work.
