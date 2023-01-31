@@ -94,9 +94,9 @@ public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-```
 
 * The output for the non failure inducing test:                                  
+```
 
 ![Image](testpass.png)                                  
 
