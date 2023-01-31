@@ -4,6 +4,7 @@
 * Strings can be added by using the following request:
 
 > /add-message?s=<string> 
+
 * Each new string will be added to a new line ("/n").
 * For example, if I enter 'localhost:4000/add-message?s=hey_there' the webpage will look like this:  
 
@@ -23,3 +24,16 @@
 
 * Here's the code for this program:
 ![Image](code.png)
+
+## Part 2: Debugging
+* Here's the buggy program that we will be testing today:
+ 
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+                                  ```
